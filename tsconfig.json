@@ -1,0 +1,14 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": ".",             // Set root directory to the current directory
+    "outDir": "build",          // Compiled files go to the "build" folder
+    "target": "ES6",            // Specify ECMAScript target version
+    "lib": ["dom", "esnext"],   // Include necessary libraries
+    "strict": true              // Enable strict mode
+  },
+  "include": [
+    "*.ts",                     // Include all .ts files in the root directory
+    "test/**/*.ts"              // Optionally include any test files in a "test" folder
+  ]
+}

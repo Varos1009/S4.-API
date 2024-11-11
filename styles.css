@@ -1,0 +1,24 @@
+body {
+  background-image: url('img/sunny-bright-day-wallpaper-preview.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 87vh;
+}
+
+.container {
+  max-width: fit-content;
+  background-image: url('img/magicpattern-blob-1731241394463.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: transparent;
+  border: none;
+}
+
+#joke-card-container {
+  background-color: transparent;
+  border: none;
+}
